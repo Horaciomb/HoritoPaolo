@@ -9,5 +9,7 @@ namespace WebApi.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<WebApi.Models.Phone> Phones { get; set; }
     }
 }
